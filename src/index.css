@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; 
+}
+
+.header {
+  background-color: #343a40; 
+  color: white;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 5px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #495057;
+  border-color: #495057;
+}
+
+.cart button {
+  background-color: #ffc107;
+  border: none;
+  color: #343a40;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cart button:hover {
+  background-color: #e0a800;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0; 
+  background-color: #f8f9fa;
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  background: #fff; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: red;
+}
+
+
+.footer {
+  text-align: center;
+  background-color: #343a40; 
+  color: white;
+  padding: 20px;
+  font-size: 0.9rem;
+}
